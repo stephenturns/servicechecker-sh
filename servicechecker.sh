@@ -1,11 +1,12 @@
 #!/bin/bash
 #
-# To provide uninterrupted services, theses servers need to be regularly checked if they are running properly. 
+# To provide uninterrupted services there is a need to regularly check if they are running properly. 
 # If one of them stopped, it needs to be restarted immediately.
-# Write a generic script that will take the process name of a server, check if it is running and if not, 
+#
+# Servicechecker.sh is a generic script that will take the process name of a server, check if it is running and if not, 
 # then run it using /sbin/service name start or server specific initialization programs.
 #
-# z5094730 Stephen Turner
+# Stephen Turner
 # *************************************************************************************************
 # Variable Declaration
 declare strService=$1			# String - service name
